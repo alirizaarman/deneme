@@ -1,0 +1,29 @@
+<!-- Oluşturulan kutuya (div gibi) altına gölge yapmaya yarar. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+/*2.İŞLEM: DİVİN SAYFADAKİ YERİNİ GÖREBİLMEK İÇİN GENİŞLİK YÜKSEKLİK VE BORDÜR VERELİM*/
+        div{  /*Elementlere stil verirken adı direkt yazılır*/
+            width: 300px;
+            height: 300px;
+            border: 1px solid black; /*solid border tek çizgi halindedir, renk isimle, rgb veya # ile verilir.*/
+/*3.İŞLEM: DİVİ SAYFANIN ORTASINA ALALIM*/
+            margin: auto;
+/*4.İŞLEM: DİVE GÖLGELENDİRME VERELİM*/
+            box-shadow: 20px 10px 20px black; 
+            /*1. veri olan 20px gölgeyi x ekseninde (sağa-sola) hareket ettirir -200px sola, 200px sağa doğru gibi*/
+            /*2.veri olan 10px gölgeyi y ekseninde (aşağı-yukarı) hareket ettirir -200px yukarı, 200px aşağı gibi*/
+            /*3.veri olan 20px opaklık saydamlık ayarıdır, px yükseldikçe saydamlaşır, bu veri hiç yazılmazsa gölge direkt opaktır*/
+            /*4.veri renk*/
+        }
+    </style>
+</head>
+<body>
+    <!--1.İŞLEM: DİV (NON-SEMANTİK ALAN) AÇALIM-->
+    <div></div> 
+</body>
+</html>
